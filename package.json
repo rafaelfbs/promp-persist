@@ -1,0 +1,24 @@
+{
+  "name": "prompt-persist",
+  "version": "1.0.0",
+  "description": "prompt value persistence decorator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelfbs/promp-persist.git"
+  },
+  "keywords": [
+    "prompt",
+    "cli",
+    "persistence"
+  ],
+  "author": "Rafael Ferrari <rafael@rferrari.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelfbs/promp-persist/issues"
+  },
+  "homepage": "https://github.com/rafaelfbs/promp-persist#readme"
+}
