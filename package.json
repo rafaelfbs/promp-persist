@@ -2,9 +2,9 @@
   "name": "prompt-persist",
   "version": "1.0.0",
   "description": "prompt value persistence decorator",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/rafaelfbs/promp-persist/issues"
   },
-  "homepage": "https://github.com/rafaelfbs/promp-persist#readme"
+  "homepage": "https://github.com/rafaelfbs/promp-persist#readme",
+  "peerDependencies": {
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "mock-stdin": "^0.3.1",
+    "prompt": "^1.0.0"
+  }
 }
